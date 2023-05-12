@@ -299,12 +299,12 @@ button {
 }
 
 .sign_btn a {
-     color: #fff;
+     background-color: #6564DB;
      font-size: 17px;
 }
 
 .sign_btn a:hover {
-     color: #000;
+     color: #6564DB;
 }
 
 
@@ -322,7 +322,7 @@ button {
 
 .header {
      width: 100%;
-     background: transparent;
+     background: #F4F3FC;
      padding: 30px 30px;
      position: absolute;
      z-index: 999;
@@ -334,6 +334,7 @@ button {
      text-transform: uppercase;
      color: #fff;
      line-height: 40px;
+     
 }
 
 .text_box_color {
@@ -378,8 +379,8 @@ button {
 
 .text-bg a {
      font-size: 17px;
-     background-color: #fff;
-     color: #141448;
+     background-color: #6564DB;
+     color: #fff;
      padding: 13px 0px;
      width: 100%;
      max-width: 190px;
@@ -389,21 +390,24 @@ button {
 }
 
 .text-bg a:hover {
-     background-color: #141448;
-     color: #fff;
+     background-color: #fff;
+     color: #6564DB;
      transition: ease-in all 0.5s;
 }
 
 .text-img {
      background: #141448;
+     
 }
 
 .text-img figure {
-     margin: 0px;
+     margin-top: 100px;
+     margin-left: 0;
+     border-radius: 6px;
 }
 
 .text-img figure img {
-     width: 100%;
+     width: 80%;
 }
 
 .padding_right1 {
@@ -449,6 +453,7 @@ button {
 
 .feature .feature_box {
      text-align: center;
+     
 }
 
 .feature .feature_box figure {
@@ -456,7 +461,10 @@ button {
 }
 
 .feature .feature_box figure img {
-     width: 100%;
+  
+width: 1600px;
+height: auto
+
 }
 
 .feature .feature_box .read_more {
@@ -531,7 +539,12 @@ button {
 }
 
 .amezing_box figure img {
-     width: 100%;
+
+width: 100%;
+margin-top: 40px;
+
+
+
 }
 
 .amezing .read_more {
