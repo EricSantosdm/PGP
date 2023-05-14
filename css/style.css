@@ -1,18 +1,12 @@
-/*--------------------------------------------------------------------- File Name: style.css ---------------------------------------------------------------------*/
 
 
-/*--------------------------------------------------------------------- import Fonts ---------------------------------------------------------------------*/
 
 @import url('https://fonts.googleapis.com/css?family=Rajdhani:300,400,500,600,700');
 @import url('https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
 @import url('https://fonts.googleapis.com/css?family=Baloo+Chettan&display=swap');
 
-/*****---------------------------------------- 1) font-family: 'Rajdhani', sans-serif;
- 2) font-family: 'Poppins', sans-serif;
- ----------------------------------------*****/
 
 
-/*--------------------------------------------------------------------- import Files ---------------------------------------------------------------------*/
 
 @import url(animate.min.css);
 @import url(normalize.css);
@@ -26,7 +20,6 @@
 @import url(jquery-ui.css);
 @import url(nice-select.css);
 
-/*--------------------------------------------------------------------- skeleton ---------------------------------------------------------------------*/
 
 * {
      box-sizing: border-box !important;
@@ -238,10 +231,8 @@ button {
 }
 
 
-/**-- heading section --**/
 
 
-/*---------------------------- preloader area ----------------------------*/
 
 .loader_bg {
      position: fixed;
@@ -267,7 +258,6 @@ button {
 }
 
 
-/*-- navigation--*/
 
 .navigation.navbar {
      float: right;
@@ -308,13 +298,10 @@ button {
 }
 
 
-/*-- header area --*/
 
 
-/*--------------------------------------------------------------------- top banner area ---------------------------------------------------------------------*/
 
 
-/*--------------------------------------------------------------------- layout new css ---------------------------------------------------------------------*/
 
 .head_top {
      background-repeat: no-repeat;
@@ -396,7 +383,7 @@ button {
 }
 
 .text-img {
-     background: #141448;
+     
      
 }
 
@@ -435,7 +422,6 @@ button {
 }
 
 
-/** feature section **/
 
 .feature {
      margin-top: 90px;
@@ -478,10 +464,8 @@ height: auto
 }
 
 
-/** end feature section **/
 
 
-/** amezing section **/
 
 .amezing {
      background: #0c0f38;
@@ -560,7 +544,6 @@ margin-top: 40px;
 }
 
 
-/** end amezing section **/
 
 .read_more {
      font-size: 17px;
@@ -581,7 +564,6 @@ margin-top: 40px;
 }
 
 
-/** customer section **/
 
 .customer {
      margin-top: 90px;
@@ -680,10 +662,8 @@ margin-top: 40px;
 }
 
 
-/** end customer section **/
 
 
-/** request section **/
 
 .request {
      padding: 90px 0;
@@ -721,10 +701,8 @@ ul.social_infomision li img {
 }
 
 
-/** end request **/
 
 
-/** footer **/
 
 .multi {
      color: #2bcc91;
@@ -816,4 +794,3 @@ ul.social_icon li a:hover {
 }
 
 
-/** end footer **/
