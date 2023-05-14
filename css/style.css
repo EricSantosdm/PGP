@@ -57,7 +57,7 @@ h6 {
      letter-spacing: 0;
      font-weight: normal;
      position: relative;
-     padding: 0 0 10px 0;
+     
      font-weight: normal;
      line-height: normal;
      color: #111111;
@@ -125,7 +125,7 @@ ol {
 p {
      margin: 0px;
      font-weight: 300;
-     font-size: 15px;
+     font-size: 18px;
      line-height: 24px;
      text-align: justify;
 }
@@ -498,6 +498,8 @@ height: auto
      align-items: center;
      flex-wrap: wrap;
      margin-bottom: 30px;
+     
+     
 }
 
 .amezing_box .can span {
@@ -511,6 +513,7 @@ height: auto
      justify-content: center;
      flex-wrap: wrap;
      color: #6564db;
+     margin-left: 4rem;
 }
 
 .amezing_box .can h4 {
@@ -542,7 +545,7 @@ margin-top: 40px;
 }
 .amezing_image{
      width: 100%;
-margin-top: 80px;
+margin-top: 4rem;
 }
 
 .amezing .read_more {
@@ -550,6 +553,7 @@ margin-top: 80px;
      margin-top: 30px;
      background-color: #6564DB;
      color: #fff;
+     
 }
 
 .amezing .read_more:hover {
