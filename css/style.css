@@ -127,6 +127,7 @@ p {
      font-weight: 300;
      font-size: 15px;
      line-height: 24px;
+     text-align: justify;
 }
 
 a {
@@ -394,7 +395,7 @@ button {
 }
 
 .text-img figure img {
-     width: 80%;
+     width: 90%;
 }
 
 .padding_right1 {
@@ -454,13 +455,17 @@ height: auto
 }
 
 .feature .feature_box .read_more {
-     background: #000;
+     background: #6564db;
      color: #fff;
      margin-top: 40px;
 }
 
 .feature .feature_box .read_more:hover {
-     background: #6564db;
+     background: #fff;
+     color: #6564db;
+     border: #6564db;
+     border-style: solid;
+
 }
 
 
@@ -530,25 +535,29 @@ margin-top: 40px;
 
 
 }
+.amezing_image{
+     width: 100%;
+margin-top: 80px;
+}
 
 .amezing .read_more {
      display: block;
      margin-top: 30px;
-     background-color: #fff;
-     color: #de2fe9;
+     background-color: #6564DB;
+     color: #fff;
 }
 
 .amezing .read_more:hover {
-     background-color: #de2fe9;
-     color: #fff;
+     background-color: #fff;
+     color: #6564DB;
 }
 
 
 
 .read_more {
      font-size: 17px;
-     background-color: #fff;
-     color: #000;
+     background-color: #6564DB;
+     color: #fff;
      padding: 13px 0px;
      width: 100%;
      max-width: 190px;
@@ -558,8 +567,8 @@ margin-top: 40px;
 }
 
 .read_more:hover {
-     background: #000;
-     color: #fff;
+     background-color: #fff;
+     color: #6564DB;
      transition: ease-in all 0.5s;
 }
 
@@ -689,7 +698,7 @@ ul.social_infomision {
 
 ul.social_infomision li a {
      font-family: 'Baloo Chettan', cursive;
-     font-size: 48px;
+     font-size: 40px;
      line-height: 49px;
      color: #0c0f38;
      font-weight: bold;
