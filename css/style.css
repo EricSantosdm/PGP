@@ -145,11 +145,14 @@ a,
      -ms-transition: all .3s ease-in-out;
      -o-transition: all .3s ease-in-out;
      transition: all .3s ease-in-out;
+     border-radius: 6px;
 }
 
 img {
      max-width: 100%;
      height: auto;
+     border-radius: 6px;
+
 }
 
  :focus {
@@ -241,6 +244,7 @@ button {
      background: #fff;
      width: 100%;
      height: 100%;
+     
 }
 
 .loader {
@@ -252,6 +256,7 @@ button {
      display: flex;
      justify-content: center;
      align-items: center;
+     filter: invert(1) brightness(.5)
 }
 
 .loader img {
@@ -326,7 +331,7 @@ button {
 }
 
 .text_box_color {
-     background: #0c0f38;
+     background: #171923;
      float: right;
      width: 100%;
 }
@@ -410,7 +415,7 @@ button {
 
 .titlepage h2 {
      font-size: 50px;
-     color: #0c0f38;
+     color: #171923;
      line-height: 61px;
      font-weight: bold;
      padding: 0;
@@ -473,7 +478,7 @@ height: auto
 
 
 .amezing {
-     background: #0c0f38;
+     background: #171923;
      margin-top: 90px;
      padding: 90px 0px;
 }
@@ -596,7 +601,7 @@ margin-top: 80px;
 }
 
 .customer_box {
-     background: #0c0f38;
+     background: #171923;
 }
 
 .test_box {
@@ -639,7 +644,7 @@ margin-top: 80px;
 }
 
 .customar_box {
-     background: #0c0f38;
+     background: #171923;
      text-align: left;
      position: relative;
      padding: 0px 0px 44px 50px;
@@ -658,7 +663,7 @@ margin-top: 80px;
      width: 22px;
      height: 22px;
      border-radius: 20px;
-     background: #0c0f38;
+     background: #171923;
 }
 
 .customer_Carousel .carousel-indicators li.active {
@@ -700,7 +705,7 @@ ul.social_infomision li a {
      font-family: 'Baloo Chettan', cursive;
      font-size: 40px;
      line-height: 49px;
-     color: #0c0f38;
+     color: #171923;
      font-weight: bold;
 }
 
@@ -722,7 +727,7 @@ ul.social_infomision li img {
 .footer {
      border-top: #000 solid 1px;
      font-family: Poppins;
-     background: #0c0f38;
+     background: #171923;
      padding-top: 50px;
 }
 
@@ -763,7 +768,7 @@ ul.social_icon li {
 }
 
 ul.social_icon li a {
-     color: #0c0f38;
+     color: #171923;
      width: 50px;
      height: 50px;
      border: solid #fff 1px;
@@ -788,14 +793,14 @@ ul.social_icon li a:hover {
 }
 
 .copyright p {
-     color: #0c0f38;
+     color: #171923;
      font-size: 18px;
      line-height: 22px;
      text-align: center;
 }
 
 .copyright a {
-     color: #0c0f38;
+     color: #171923;
 }
 
 .copyright a:hover {

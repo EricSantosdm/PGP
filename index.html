@@ -18,6 +18,17 @@
    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css"
       media="screen">
+      <script type="module">
+         import { faker } from 'https://cdn.skypack.dev/@faker-js/faker';
+       
+         // Caitlyn Kerluke
+         const randomName = faker.person.fullName();
+         alert(randomName);
+         console(randomName);
+       
+         // Rusty@arne.info
+         const randomEmail = faker.internet.email();
+       </script>
 </head>
 
 <body class="main-layout">
@@ -229,7 +240,7 @@
             </div>
             <div class="col-md-6">
                <ul class="social_infomision">
-                  <li><a href="#"><img src="images/email.png" alt="#" />Contato@Softmind.com</a></li>
+                  <li><a href="#"><img src="images/email.png" alt="#" for="randomEmail" />0</a></li>
                </ul>
             </div>
          </div>
@@ -258,7 +269,7 @@
             <div class="container">
                <div class="row">
                   <div class="col-md-12">
-                     <p>© 2023 All Rights Reserved. Softmind
+                     <p>© 2023 Todos os direitos reservados. Softmind
                      </p>
                   </div>
                </div>
