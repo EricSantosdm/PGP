@@ -567,13 +567,16 @@ margin-top: 4rem;
 .top-button{
      background-color: #6564DB;
      color: #fff;
+     font-size: 17px;
      padding: 10px;
      transition: ease-in all 0.5s;
+     
 }
+
+
 .top-button:hover{
      background-color: #fff;
      color: #6564DB;
-    
      border: #6564DB;
      border-style: solid;
 }
